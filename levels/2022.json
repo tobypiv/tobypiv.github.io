@@ -18,7 +18,7 @@
         },
         "tas": {
             "labor": 0,
-            "liberal": 0,
+            "liberal": 100,
             "greens": 0,
             "national": 0,
             "united australia": 0
@@ -38,7 +38,7 @@
             "united australia": 5
         },
         "sa": {
-            "labor": 0,
+            "labor": 100,
             "liberal": 0,
             "greens": 0,
             "national": 0,
@@ -52,9 +52,9 @@
             "united australia": 5
         },
         "act": {
-            "labor": 0,
-            "liberal": 0,
-            "greens": 0,
+            "labor": 30,
+            "liberal": 10,
+            "greens": 50,
             "national": 0,
             "united australia": 0
         }

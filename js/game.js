@@ -2,7 +2,7 @@ let raw = localStorage.getItem("campaign-trail");
 if (!raw) window.location = "index.html";
 let { data } = JSON.parse(raw);
 
-document.querySelector(".partyContainer").innerHTML = `<p>playing as: ${data.party}</p><p>${data.description}</p>`;
+document.querySelector(".partyContainer").innerHTML = `<p>playing as: the ${data.party} party</p><p>${data.description}</p>`;
 
 const update = () => {
     let results = data?.polls;
