@@ -3,7 +3,7 @@ let electionSelect = document.querySelector("#election-select");
 
 let parties = Object.keys(constants.parties)
     .sort((a, b) => 0.5 - Math.random())
-    .map((p) => `<option value=${p}>${p}</p>`)
+    .map((p) => `<option value="${p}">${p}</p>`)
     .join("");
 partySelect.innerHTML = parties;
 
@@ -13,6 +13,7 @@ electionSelect.innerHTML = elections;
 const playGame = async () => {
     let raw = await fetch(`./levels/${electionSelect.value}.json`);
     data = await raw.json();
+
     data.party = partySelect.value;
     localStorage.setItem("campaign-trail", JSON.stringify({ data }));
 

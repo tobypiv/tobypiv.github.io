@@ -66,6 +66,7 @@ const getNextQuestion = () => {
 let currentQuestion = null;
 let questionDiv = document.getElementsByClassName("questionContainer")[0];
 const updateQuestionDisplay = () => {
+    if (!currentQuestion) return console.warn("NO CURRENT QUESTION");
     questionDiv.innerHTML = `<p class="question">${currentQuestion.text}</p>${currentQuestion.answers
         .map((a, i) => `<p class="answer" onclick="selectAnswer(${i})">${a.text}</p>`)
         .join("")}`;
@@ -90,12 +91,12 @@ const updateAdviceDisplay = () => {
     adviceDataContainer.innerHTML = `${currentAdvice}`;
 };
 
-update();
 getNextQuestion();
+update();
 
 function endGame() {
     console.log("EEE");
-    let v = confirm("Are you sure you want to loose your progress?");
+    let v = confirm("Are you sure you want to lose your progress?");
     console.log(v);
     if (v) {
         localStorage.setItem("campaign-trail", "");
