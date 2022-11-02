@@ -24,33 +24,35 @@ const calculateResults = () => {
                     statePoll[party] -= quota * addedSeats;
                 }
             });
-
             // did anyone win outright?
             if (quotaReached(seats, numberOfSeats)) return true;
 
             let lowest = Object.keys(statePoll)
                 .filter((p) => !eliminated.includes(p))
                 .sort((a, b) => statePoll[a] - statePoll[b])[0];
-            if (lowest == undefined || lowest == "undefined") return null;
+            if (lowest == undefined || lowest == "undefined") {
+                console.log("something is very wrongs");
+                return null;
+            }
             eliminated.push(lowest);
 
             let preference = constants.parties[lowest].preferences.filter((party) => !eliminated.includes(party))[0];
             statePoll[preference] += statePoll[lowest];
         };
 
-        while (iter < 25) {
+        while (iter < 50) {
             iteration();
             if (quotaReached(seats, numberOfSeats)) break;
             iter++;
         }
 
-        console.log(seats, stateName);
+        // console.log(seats, stateName);
         results[stateName] = seats;
     });
 
     let r = document.getElementById("results");
     r.innerHTML = Object.keys(results)
-        .map((stateName) => `<p>${JSON.stringify(results[stateName])} ${stateName}</p>`)
+        .map((stateName) => `<p>${JSON.stringify(results[stateName])} ${stateName} ${quotaReached(results[stateName], constants.states[stateName].seats)}</p>`)
         .join("");
     //loop through each state
     //can anyone meet the quota?

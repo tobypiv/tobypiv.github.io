@@ -55,8 +55,8 @@
             "labor": 30,
             "liberal": 10,
             "greens": 50,
-            "national": 0,
-            "united australia": 0
+            "national": 5,
+            "united australia": 5
         }
     },
     "questions": [
