@@ -2,6 +2,8 @@ let raw = localStorage.getItem("campaign-trail");
 if (!raw) window.location = "index.html";
 let { data } = JSON.parse(raw);
 
+document.querySelector(".partyContainer").innerHTML = `playing as: ${data.party}`;
+
 const update = () => {
     let results = data?.polls;
     if (!results) return console.warn("No polling data found!");
