@@ -1,0 +1,203 @@
+{
+    "year": "2022",
+    "polls": {
+        "vic": {
+            "labor": 45,
+            "liberal": 30,
+            "greens": 15,
+            "national": 7,
+            "united australia": 3
+        },
+        "nsw": {
+            "labor": 25,
+            "liberal": 40,
+            "greens": 10,
+            "national": 20,
+            "united australia": 5
+        },
+        "tas": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        },
+        "qld": {
+            "labor": 40,
+            "liberal": 50,
+            "greens": 0,
+            "national": 10,
+            "united australia": 0
+        },
+        "nt": {
+            "labor": 70,
+            "liberal": 15,
+            "greens": 2,
+            "national": 8,
+            "united australia": 5
+        },
+        "sa": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        },
+        "wa": {
+            "labor": 35,
+            "liberal": 40,
+            "greens": 0,
+            "national": 20,
+            "united australia": 5
+        },
+        "act": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        }
+    },
+    "questions": [
+        {
+            "text": "How do you plan on acting on the issue of energy prices?",
+            "topic": "economy",
+            "answers": [
+                {
+                    "text": "We believe that large coal subsidies are the way forward",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": -5, "liberal": 2, "greens": 3, "national": 1, "united australia": 10 },
+                            "wa": { "labor": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                },
+                {
+                    "text": "Renewable energy investment is the way forward.",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": 10, "liberal": -3, "greens": 5, "national": -2, "united australia": -2 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                },
+                {
+                    "text": "We believe that intervening now would be irresponsible, the market knows the best way to handle high prices and it will be rectified soon",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": -5, "liberal": 0, "greens": 2, "national": -2, "united australia": -2 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "text": "What will you do about China's growing influence in the region?",
+            "topic": "foreign policy",
+            "answers": [
+                {
+                    "text": "We will invest in a nuclear weapons program",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": -15, "liberal": 3, "greens": 4, "national": 3, "united australia": 1 },
+                            "wa": { "labor": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                },
+                {
+                    "text": "We will look for other trading partners to reduce our reliance on China",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": 5, "liberal": -2, "greens": -1, "national": -1, "united australia": 1 },
+                            "wa": { "labor": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
