@@ -10,10 +10,9 @@
             "united australia": 3
         },
         "nsw": {
-            "labor": 25,
-            "liberal": 40,
+            "labor": 35,
+            "liberal": 50,
             "greens": 10,
-            "national": 20,
             "united australia": 5
         },
         "tas": {
@@ -68,7 +67,7 @@
                     "text": "We believe that large coal subsidies are the way forward",
                     "outcome": {
                         "labor": {
-                            "default": { "labor": -5, "liberal": 2, "greens": 3, "national": 1, "united australia": 10 },
+                            "default": { "labor": -5, "liberal": 2, "greens": 3, "national": 1, "united australia": 10, "other": 100 },
                             "wa": { "labor": 0 },
                             "advice": "ADVISOR TEXT HERE"
                         },

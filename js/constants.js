@@ -16,5 +16,5 @@ let constants = {
         national: { name: "national", getColour: (a) => `rgba(0, 105, 70, ${a})`, preferences: ["liberal", "united australia", "labor", "greens"] },
         "united australia": { name: "united australia", getColour: (a) => `rgba(254, 237, 1, ${a})`, preferences: ["liberal", "national", "labor", "greens"] },
     },
-    levels: ["2022"],
+    levels: ["2020"],
 };

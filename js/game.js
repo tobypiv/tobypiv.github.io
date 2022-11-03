@@ -5,6 +5,10 @@ let { data } = JSON.parse(raw);
 document.querySelector(".partyContainer").innerHTML = `<p>playing as: the ${data.party} party</p><p>${data.description}</p>`;
 
 const update = () => {
+    Object.keys(data.polls).forEach((stateName) => {
+        normalise(data.polls[stateName]);
+    });
+
     let results = data?.polls;
     if (!results) return console.warn("No polling data found!");
     let svg = document.querySelector("svg");
@@ -23,6 +27,8 @@ const update = () => {
     updateStateDataDisplay();
     updateAdviceDisplay();
     updateQuestionDisplay();
+
+    localStorage.setItem("campaign-trail", JSON.stringify(data));
 };
 
 const selectAnswer = (index) => {
@@ -31,6 +37,7 @@ const selectAnswer = (index) => {
     Object.keys(constants.states).forEach((state) => {
         state = constants.states[state];
         Object.keys(answer.outcome[data.party].default).forEach((party) => {
+            if (data.polls[state.name][party] === undefined) return;
             let modifier = partyOutcome[state.name]?.[party] != undefined ? partyOutcome[state.name]?.[party] : partyOutcome.default[party];
             let randomness = Math.max(Math.random(), 0.1);
 
@@ -41,16 +48,18 @@ const selectAnswer = (index) => {
             data.polls[state.name][party] += change;
             data.polls[state.name][party] = Math.min(Math.max(data.polls[state.name][party], 0), 100); // fit to 100
         });
-
-        let sum = Object.keys(data.polls[state.name])
-            .map((party) => data.polls[state.name][party])
-            .reduce((r, value) => r + value); // reweight it so it adds to 100
-        Object.keys(data.polls[state.name]).forEach((party) => (data.polls[state.name][party] = (data.polls[state.name][party] / sum) * 100));
     });
     currentAdvice = partyOutcome.advice;
 
     getNextQuestion();
     update();
+};
+
+const normalise = (statePoll) => {
+    let sum = Object.keys(statePoll)
+        .map((party) => statePoll[party])
+        .reduce((r, value) => r + value); // reweight it so it adds to 100
+    Object.keys(statePoll).forEach((party) => (statePoll[party] = (statePoll[party] / sum) * 100));
 };
 
 const calculateWinner = () => {};

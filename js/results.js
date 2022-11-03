@@ -13,16 +13,15 @@ const calculateResults = () => {
         let numberOfSeats = constants.states[stateName].seats;
         let quota = 100 / numberOfSeats;
 
-        const fancyRound = (n) => Math.round(n * 100) / 100;
+        const fancyRound = (n) => n; //Math.ceil(n * 100) / 100;
 
         let iter = 0;
         const iteration = () => {
             Object.keys(statePoll).forEach((party) => {
                 if (party === undefined || party === "undefined") console.error("there is a party called undefined! Fix this!");
                 else if (!seats[party]) seats[party] = 0;
-
                 if (fancyRound(statePoll[party]) >= fancyRound(quota)) {
-                    let addedSeats = Math.round(fancyRound(statePoll[party]) / fancyRound(quota));
+                    let addedSeats = Math.floor(fancyRound(statePoll[party]) / fancyRound(quota));
                     seats[party] += addedSeats;
                     statePoll[party] -= quota * addedSeats;
                 }
@@ -42,17 +41,14 @@ const calculateResults = () => {
             let preference = constants.parties[lowest].preferences.filter((party) => !eliminated.includes(party))[0];
             if (!preference) return console.error("NO PREFERNCE FOUND!!");
             statePoll[preference] += statePoll[lowest];
-            console.log(statePoll[preference]);
         };
 
         while (iter < 50) {
             iteration();
-            if (stateName == "vic") console.log(statePoll);
             if (quotaReached(seats, numberOfSeats)) break;
             iter++;
         }
 
-        // console.log(seats, stateName);
         results[stateName] = seats;
     });
 
