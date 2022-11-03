@@ -71,4 +71,6 @@ const quotaReached = (seats, numberOfSeats) => {
     return result >= numberOfSeats;
 };
 
-calculateResults();
+// calculateResults();
+
+document.body.innerHTML = "THIS IS CURRENTLY BROKEN, AND NEEDS FIXING!";
