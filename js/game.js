@@ -41,6 +41,11 @@ const selectAnswer = (index) => {
             data.polls[state.name][party] += change;
             data.polls[state.name][party] = Math.min(Math.max(data.polls[state.name][party], 0), 100); // fit to 100
         });
+
+        let sum = Object.keys(data.polls[state.name])
+            .map((party) => data.polls[state.name][party])
+            .reduce((r, value) => r + value); // reweight it so it adds to 100
+        Object.keys(data.polls[state.name]).forEach((party) => (data.polls[state.name][party] = (data.polls[state.name][party] / sum) * 100));
     });
     currentAdvice = partyOutcome.advice;
 
