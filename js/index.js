@@ -1,7 +1,9 @@
 let partySelect = document.querySelector("#party-select");
 let electionSelect = document.querySelector("#election-select");
 
+console.log(constants.parties);
 let parties = Object.keys(constants.parties)
+    .filter((p) => constants.parties[p].playable === true)
     .sort((a, b) => 0.5 - Math.random())
     .map((p) => `<option value="${p}">${p}</p>`)
     .join("");

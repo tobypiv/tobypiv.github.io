@@ -1,6 +1,7 @@
 let raw = localStorage.getItem("campaign-trail");
 if (!raw) window.location = "index.html";
-let { data } = JSON.parse(raw);
+let level = JSON.parse(raw);
+let data = level.data;
 
 document.querySelector(".partyContainer").innerHTML = `<p>playing as: the ${data.party} party</p><p>${data.description}</p>`;
 
@@ -28,7 +29,7 @@ const update = () => {
     updateAdviceDisplay();
     updateQuestionDisplay();
 
-    localStorage.setItem("campaign-trail", JSON.stringify(data));
+    localStorage.setItem("campaign-trail", JSON.stringify(level));
 };
 
 const selectAnswer = (index) => {
@@ -109,7 +110,6 @@ const updateAdviceDisplay = () => {
 
 getNextQuestion();
 update();
-
 function endGame() {
     console.log("EEE");
     let v = confirm("Are you sure you want to lose your progress?");
