@@ -1,0 +1,152 @@
+{
+    "year": "2022",
+    "description": "Do not chose this one. Incomplete.",
+    "polls": {
+        "vic": {
+            "labor": 32,
+            "liberal": 36,
+            "greens": 11,
+            "one nation": 2,
+            "united australia": 3,
+            "other": 16
+        },
+        "nsw": {
+            "labor": 30,
+            "liberal": 40,
+            "greens": 10,
+            "united australia": 2,
+            "one nation": 5,
+            "other": 13
+        },
+        "tas": {
+            "labor": 30,
+            "liberal": 31,
+            "greens": 12,
+            "national": 2,
+            "other": 25
+        },
+        "qld": {
+            "labor": 23,
+            "liberal": 39,
+            "greens": 10,
+            "united australia": 4,
+            "one nation": 11,
+            "other": 13
+        },
+        "nt": {
+            "labor": 70,
+            "liberal": 15,
+            "greens": 2,
+            "national": 8,
+            "united australia": 5
+        },
+        "sa": {
+            "labor": 38,
+            "liberal": 30,
+            "greens": 10,
+            "united australia": 3,
+            "one nation": 4,
+            "other": 15
+        },
+        "wa": {
+            "labor": 28,
+            "liberal": 40,
+            "greens": 11,
+            "national": 2,
+            "united australia": 2,
+            "one nation": 5,
+            "other": 12
+        },
+        "act": {
+            "labor": 30,
+            "liberal": 10,
+            "greens": 50,
+            "national": 5,
+            "united australia": 5
+        }
+    },
+    "questions": [
+        {
+            "text": "How do you plan on acting on the issue of energy prices?",
+            "topic": "economy",
+            "answers": [
+                {
+                    "text": "We believe that large coal subsidies are the way forward",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": -15, "liberal": 2, "greens": 4, "national": 1, "united australia": 1 },
+                            "wa": { "labor": -3 },
+                            "advice": "What on earth are you thinking!? You've lost the support of almost your entire base, you'll be lucky if you can win a single seat!"
+                        },
+                        "liberal": {
+                            "default": { "labor": 3, "liberal": -2, "greens": 2, "national": 1, "united australia": -1 },
+                            "advice": "This is a good way to energise the far right of your party, but you have lost some support from the more moderate and swing voters"
+                        },
+                        "greens": {
+                            "default": { "labor": 5, "liberal": 2, "greens": -100, "national": 2, "united australia": 1 },
+                            "advice": "You've just gone against your core policy of environmentalism - you now stand for nothing at all and are beyond help! - I resign!"
+                        },
+                        "national": {
+                            "default": { "labor": 1, "liberal": 0, "greens": 3, "national": 3, "united australia": 0.5 },
+                            "advice": "INSERT ADVICE TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 1, "liberal": 1, "greens": 1, "national": 0, "united australia": 3.5 },
+                            "advice": "Environmentalists frown upon this move, but they hated you anyway, so this is a good way to increase support from right wing radicals and to gain publicity."
+                        }
+                    }
+                },
+                {
+                    "text": "Renewable energy investment is the way forward.",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": 4, "liberal": -1, "greens": 0, "national": -2, "united australia": -0.5 },
+                            "advice": "Your many environmentaly concious supporters welcome this decision, and the choice to use the term investment, rather than shutting down coal was a smart move."
+                        },
+                        "liberal": {
+                            "default": { "labor": -0.5, "liberal": 0.5, "greens": -2, "national": 0.5, "united australia": 0.75 },
+                            "advice": "This has confused many of your supporters, as only a few years ago you were championing fossil fuels. This has hurt the Green's vote however, as it has meant that you are seen as more moderate on an issue that was driving many away from your party"
+                        },
+                        "greens": {
+                            "default": { "labor": 0.5, "liberal": -1, "greens": 2, "national": -1.5, "united australia": 0 },
+                            "advice": "Well done. This is consistent with your message, but you've also managed to alay fears of losing jobs in fossil fuels. You've hurt all the major parties, and managed to increase your vote share."
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": -4, "united australia": 0 },
+                            "advice": "What are you thinking? You've lost most of your right-wing rural base, who support coal mining and are afraid of losing jobs in their community. This has really hurt your vote all across the country"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": -20 },
+                            "advice": "You've pretty much lost all hope you had of winning a single vote. You've alienated the moderates and the far left, and now you've alienated the far right. You may as well save your time and money and buy a yacht instead."
+                        }
+                    }
+                },
+                {
+                    "text": "We believe that intervening now would be irresponsible, the market knows the best way to handle high prices and it will be rectified soon",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": -3, "liberal": 0, "greens": 2, "national": 0, "united australia": -2 },
+                            "advice": "Many of your supporters are dissapointed with the more laid back approach, but few care enough to consider changing their vote - be careful to ensure you have a strong position on climate change to avoid losing more votes to the greens."
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
