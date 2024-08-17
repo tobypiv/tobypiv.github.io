@@ -1,0 +1,211 @@
+{
+    "year": "2022",
+    "description": "The senate may be a real hand towards the emerging government of the 2022 election. The Liberal Party run in the senate under Simon Birmingham, and Labor under Penny Wong",
+    "polls": {
+        "vic": {
+            "labor": 32,
+            "liberal": 31,
+            "greens": 13,
+            "one nation": 2,
+            "united australia": 4,
+            "other": 15
+        },
+        "nsw": {
+            "labor": 36,
+            "liberal": 42,
+            "greens": 12,
+            "united australia": 4,
+            "one nation": 3,
+            "other": 3
+        },
+        "tas": {
+            "labor": 30,
+            "liberal": 31,
+            "greens": 12,
+            "national": 2,
+            "other": 25
+        },
+        "qld": {
+            "labor": 25,
+            "liberal": 35,
+            "greens": 12,
+            "united australia": 3,
+            "one nation": 8,
+            "other": 17
+        },
+        "nt": {
+            "labor": 45,
+            "liberal": 40,
+            "greens": 15,
+            "national": 0,
+            "united australia": 0
+        },
+        "sa": {
+            "labor": 38,
+            "liberal": 30,
+            "greens": 10,
+            "united australia": 3,
+            "one nation": 4,
+            "other": 15
+        },
+        "wa": {
+            "labor": 45,
+            "liberal": 38,
+            "greens": 15,
+            "national": 0,
+            "united australia": 0,
+            "one nation": 1,
+            "other": 1
+        },
+        "act": {
+            "labor": 0,
+            "liberal": 50,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0,
+            "david pockock your mum?": 50
+        }
+    },
+    "questions": [
+        {
+            "text": "The Budget of 2022 saw what many considered to be inadequate funding towards the renewable sector. Do you have any comment on this?",
+            "topic": "climate change",
+            "answers": [
+                {
+                    "text": "This funding was perfectly adequate towards addressing climate change",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": -8, "liberal": 5, "greens": 5, "national": 1, "united australia": 1 },
+                            "act": { "labor": -10, "greens": 5 },
+                            "advice": "Climate Change is a key issue for your voters, are you ok? You're not even going to try to criticise Frydenburg?"
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": -2, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                },
+                {
+                    "text": "this was totatly inadequate!",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Do you believe that investment into carbon-neutral energy sources, such as nuclear energy, is a better alternative to renewables?",
+            "topic": "climate change",
+            "answers": [
+                {
+                    "text": "Nuclear energy is the real solution to the energy crisis. It is a better source than fossil fuels, and also affordable for the government.",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": 0.5, "liberal": 2, "greens": 5, "national": 0.5, "united australia": 2 },
+                            "act": { "labor": -10, "greens": 5 },
+                            "advice": "Renewables are a key aspect to your policy, but on the other hand, nuclear energy has reasonable support, and a compromise might bring voters together."
+                        },
+                        "liberal": {
+                            "default": { "labor": -1, "liberal": 2, "greens": -1, "national": 1, "united australia": 1 },
+                            "advice": "Not a bad play. You've pledged to do something about climate change and found an option that keeps many jobs"
+                        },
+                        "greens": {
+                            "default": { "labor": 3, "liberal": 1, "greens": -5, "national": 0, "united australia": 1 },
+                            "advice": "Did you forget the name of your party? You're proposing nuclear energy? Don't know how you'll fare in this senate election."
+                        },
+                        "national": {
+                            "default": { "labor": -1, "liberal": 0, "greens": 0, "national": 1, "united australia": -2 },
+                            "advice": "A compromise such as this, with a reassurance that people keeps their jobs, means your rural voters go away from the UAP, and back to you."
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": -1, "greens": 0, "national": -2, "united australia": 3 },
+                            "advice": "People are starting to wsee you not as a bumbling fool, but as someone with realistic policy"
+                        }
+                    }
+                },
+                {
+                    "text": "We shouldn't be compromising on the topic of future generations. We need renewable energy investment to ensure a prosperous future for our generations",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": 2, "liberal": -1, "greens": -2, "national": -1, "united australia": 0 },
+                            "advice": "What a way to reinvigorate your base! You've gained the support of many pro climate independents with this statement, and taken a few progressive voters from the greens"
+                        },
+                        "liberal": {
+                            "default": { "labor": 2, "liberal": -5, "greens": -2, "national": 3, "united australia": 2 },
+                            "advice": "You can't be this stupid. Your supporters are confused, and have began flocking to more conservative parties on this issue. Labor makes some gain out of mocking your flip-flopping, and your coalition partner, the Nationals are confused"
+                        },
+                        "greens": {
+                            "default": { "labor": -1, "liberal": -1, "greens": 1, "national": 0, "united australia": 0 },
+                            "advice": "quite a standard response, but calliong out the 2 major parties is a good way of being noticed and getting the anti-establishment on your side"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                },
+                {
+                    "text": "[text here]",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": 0.5, "liberal": 2, "greens": 5, "national": 0.5, "united australia": 2 },
+                            "act": { "labor": -10, "greens": 5 },
+                            "advice": "Renewables are a key aspect to your policy, but on the other hand, nuclear energy has reasonable support, and a compromise might bring voters together."
+                        },
+                        "liberal": {
+                            "default": { "labor": -1, "liberal": 2, "greens": -1, "national": 1, "united australia": 1 },
+                            "advice": "Not a bad play. You've pledged to do something about climate change and found an option that keeps many jobs"
+                        },
+                        "greens": {
+                            "default": { "labor": 3, "liberal": 1, "greens": -5, "national": 0, "united australia": 1 },
+                            "advice": "Did you forget the name of your party? You're proposing nuclear energy? Don't know how you'll fare in this senate election."
+                        },
+                        "national": {
+                            "default": { "labor": -1, "liberal": 0, "greens": 0, "national": 1, "united australia": -2 },
+                            "advice": "A compromise such as this, with a reassurance that people keeps their jobs, means your rural voters go away from the UAP, and back to you."
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": -1, "greens": 0, "national": -2, "united australia": 3 },
+                            "advice": "People are starting to wsee you not as a bumbling fool, but as someone with realistic policy"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
