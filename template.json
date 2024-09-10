@@ -1,0 +1,120 @@
+{
+    "year": "2022",
+    "description": "THIS IS NOT YET IMPLEMENTED, BUT YOU CAN WRITE A DESCRIPTION OF THE ELECTION FOR THE PLAYER. USE \n TO MAKE A NEW LINE",
+    "polls": {
+        "vic": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        },
+        "nsw": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        },
+        "tas": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        },
+        "qld": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        },
+        "nt": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        },
+        "sa": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        },
+        "wa": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        },
+        "act": {
+            "labor": 0,
+            "liberal": 0,
+            "greens": 0,
+            "national": 0,
+            "united australia": 0
+        }
+    },
+    "questions": [
+        {
+            "text": "YOUR QUESTION TEXT GOES HERE",
+            "topic": "YOUR TOPIC GOES HERE (something like economy, foreign policy, or immigration, but BE CONSISTENT)",
+            "answers": [
+                {
+                    "text": "YOUR ANSWER TEXT GOES HERE",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                },
+                {
+                    "text": "YOUR ANSWER TEXT GOES HERE",
+                    "outcome": {
+                        "labor": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "liberal": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "greens": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "national": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        },
+                        "united australia": {
+                            "default": { "labor": 0, "liberal": 0, "greens": 0, "national": 0, "united australia": 0 },
+                            "advice": "ADVISOR TEXT HERE"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

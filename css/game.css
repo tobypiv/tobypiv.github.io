@@ -1,0 +1,38 @@
+svg path:hover {
+    /* fill: lightgrey !important; */
+    opacity: 60% !important;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answer:hover {
+    font-style: italic;
+}
+
+.questionContainer,
+.sideDisplay > div {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 5px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.sideDisplay > div {
+    margin: 5px;
+}
+
+.stateDataContainer > p:first-child {
+    font-size: large;
+}
+
+body {
+    display: flex;
+}
+
+body > div {
+    width: 50%;
+}
